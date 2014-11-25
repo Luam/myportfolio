@@ -49,8 +49,8 @@ body {
 	margin-right: 40px;
 }
 .featurette-image.pull-right {
-	width: 400px;
-	height: 426px;
+	width: 351px;
+	height: 393px;
 	margin-top: 25px;
 	margin-left: 40px;
 }
@@ -62,6 +62,7 @@ body {
 
 .img-thumbnail{
 	box-shadow: 2px 1px 1px  #bbb;
+	height: 222px;
 }
 #contact a:hover{
 	transform:rotate(300deg);
@@ -86,6 +87,50 @@ body {
 
 footer {
 	text-align: center;
+}
+
+#canvas{
+	border-radius: 10px;
+	border: 2px solid #bbb;
+	margin-top: 15px;
+	cursor: crosshair;
+}
+
+.no-padding{
+	padding:0;
+}
+.no-left-padding{
+	padding-left: 0;
+}
+.no-right-padding{
+	padding-right: 0;
+}
+.no-bottom-padding{
+	padding-bottom: 0;
+}
+.no-top-padding{
+	padding-top: 0;
+}
+.no-margin{
+	margin: 0;
+}
+.no-left-margin{
+	margin-left: 0;
+}
+.no-right-margin{
+	margin-right: 0;
+}
+.bold{
+	font-weight: bold;
+}
+.white-color{
+	color:#fff;
+}
+.black-color{
+	color: #000;
+}
+.gray-color{
+	color: #ddd;
 }
 
 /* RESPONSIVE CSS */
